@@ -69,26 +69,26 @@ int main() {
 
     /*
     // FALLO 1: string no cumple con Divisible
-    // Explicación: string no tiene definido el operador '/' con size_t.
+    // Explicacion: string no tiene definido el operador '/' con size_t.
     // El concept Divisible falla en la restricción del algoritmo mean.
     auto m_str = mean(palabras);
     */
 
     /*
     // FALLO 2: string no cumple los concepts requeridos por variance
-    // Explicación: Falla el concept Subtractable ya que no se pueden restar strings (operador '-' no definido).
+    // Explicacion: Falla el concept Subtractable ya que no se pueden restar strings (operador '-' no definido).
     auto v_str = variance(palabras);
     */
 
     /*
     // FALLO 3: Esfera no cumple Addable en sum()
-    // Explicación: La estructura Esfera no tiene implementado el operator+ sobrecargado.
+    // Explicacion: La estructura Esfera no tiene implementado el operator+ sobrecargado.
     auto esf_sum = sum(esferas);
     */
 
     /*
     // FALLO 4: Int con objeto no compatible en variadic
-    // Explicación: No se pueden sumar tipos heterogéneos que no tengan conversión o el concept Addable unificado.
+    // Explicacion: No se pueden sumar tipos heterogeneos que no tengan conversion o el concept Addable unificado.
     auto err_var = sum_variadic("texto", 123);
     */
 
